@@ -1,0 +1,29 @@
+{
+    "name": "vingle/flarum-share-facebook",
+    "description": "Include share facebook button.",
+    "keywords": ["share", "facebook"],
+    "type": "flarum-extension",
+    "version": "0.1.0",
+    "authors": [{
+        "name": "Binh Duong",
+        "email": "binh.duong@vingle.net"
+    }],
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "_ Share Facebook",
+            "icon": {
+                "name": "facebook-official",
+                "backgroundColor": "#000", 
+                "color": "#FF0"
+            }
+        }
+    },
+        "autoload": {
+            "psr-4": {
+                "Vingle\\Share\\Facebook\\": "src/"
+            }
+        }
+    }
